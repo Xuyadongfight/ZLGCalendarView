@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF5C1F224FE6B70008408EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C1F124FE6B70008408EA /* AppDelegate.swift */; };
+		AAF5C1F624FE6B70008408EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C1F524FE6B70008408EA /* ViewController.swift */; };
+		AAF5C1F924FE6B70008408EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C1F724FE6B70008408EA /* Main.storyboard */; };
+		AAF5C1FB24FE6B72008408EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C1FA24FE6B72008408EA /* Assets.xcassets */; };
+		AAF5C1FE24FE6B72008408EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C1FC24FE6B72008408EA /* LaunchScreen.storyboard */; };
+		AAF5C20D24FE6BC8008408EA /* ZLGDateTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C20624FE6BC8008408EA /* ZLGDateTool.swift */; };
+		AAF5C20E24FE6BC8008408EA /* ZLGCalendarViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C20724FE6BC8008408EA /* ZLGCalendarViewFlowLayout.swift */; };
+		AAF5C20F24FE6BC8008408EA /* ZLGcalendarCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C20824FE6BC8008408EA /* ZLGcalendarCollectionCell.xib */; };
+		AAF5C21024FE6BC8008408EA /* ZLGcalendarCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C20924FE6BC8008408EA /* ZLGcalendarCollectionCell.swift */; };
+		AAF5C21124FE6BC8008408EA /* ZLGCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C20A24FE6BC8008408EA /* ZLGCalendarView.swift */; };
+		AAF5C21224FE6BC8008408EA /* ZLGCalendarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C20B24FE6BC8008408EA /* ZLGCalendarItemView.swift */; };
+		AAF5C21324FE6BC8008408EA /* ZLGCalendarDatasoruceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF5C20C24FE6BC8008408EA /* ZLGCalendarDatasoruceManager.swift */; };
+		AAF5C21B24FE7475008408EA /* 下拉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C21524FE7475008408EA /* 下拉@2x.png */; };
+		AAF5C21C24FE7475008408EA /* 下拉@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C21624FE7475008408EA /* 下拉@3x.png */; };
+		AAF5C21D24FE7475008408EA /* right红@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C21724FE7475008408EA /* right红@2x.png */; };
+		AAF5C21E24FE7475008408EA /* left红@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C21824FE7475008408EA /* left红@2x.png */; };
+		AAF5C21F24FE7475008408EA /* left红@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C21924FE7475008408EA /* left红@3x.png */; };
+		AAF5C22024FE7475008408EA /* right红@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF5C21A24FE7475008408EA /* right红@3x.png */; };
+		BDB130195D0E64D1B230404A /* Pods_ZLGCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449E094BED3065E182390E35 /* Pods_ZLGCalendar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E7A7E89F5EAFC5E8D90B93E /* Pods-ZLGCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLGCalendar.release.xcconfig"; path = "Target Support Files/Pods-ZLGCalendar/Pods-ZLGCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		449E094BED3065E182390E35 /* Pods_ZLGCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLGCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A32B2080FD77F7DFE8CDF71 /* Pods-ZLGCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLGCalendar.debug.xcconfig"; path = "Target Support Files/Pods-ZLGCalendar/Pods-ZLGCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF5C1EE24FE6B70008408EA /* ZLGCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLGCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF5C1F124FE6B70008408EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAF5C1F524FE6B70008408EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAF5C1F824FE6B70008408EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF5C1FA24FE6B72008408EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF5C1FD24FE6B72008408EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF5C1FF24FE6B72008408EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF5C20624FE6BC8008408EA /* ZLGDateTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGDateTool.swift; sourceTree = "<group>"; };
+		AAF5C20724FE6BC8008408EA /* ZLGCalendarViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGCalendarViewFlowLayout.swift; sourceTree = "<group>"; };
+		AAF5C20824FE6BC8008408EA /* ZLGcalendarCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLGcalendarCollectionCell.xib; sourceTree = "<group>"; };
+		AAF5C20924FE6BC8008408EA /* ZLGcalendarCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGcalendarCollectionCell.swift; sourceTree = "<group>"; };
+		AAF5C20A24FE6BC8008408EA /* ZLGCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGCalendarView.swift; sourceTree = "<group>"; };
+		AAF5C20B24FE6BC8008408EA /* ZLGCalendarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGCalendarItemView.swift; sourceTree = "<group>"; };
+		AAF5C20C24FE6BC8008408EA /* ZLGCalendarDatasoruceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGCalendarDatasoruceManager.swift; sourceTree = "<group>"; };
+		AAF5C21524FE7475008408EA /* 下拉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉@2x.png"; sourceTree = "<group>"; };
+		AAF5C21624FE7475008408EA /* 下拉@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉@3x.png"; sourceTree = "<group>"; };
+		AAF5C21724FE7475008408EA /* right红@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right红@2x.png"; sourceTree = "<group>"; };
+		AAF5C21824FE7475008408EA /* left红@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left红@2x.png"; sourceTree = "<group>"; };
+		AAF5C21924FE7475008408EA /* left红@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left红@3x.png"; sourceTree = "<group>"; };
+		AAF5C21A24FE7475008408EA /* right红@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right红@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF5C1EB24FE6B70008408EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB130195D0E64D1B230404A /* Pods_ZLGCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5280E7CDFD19121C0FBE6FB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A32B2080FD77F7DFE8CDF71 /* Pods-ZLGCalendar.debug.xcconfig */,
+				2E7A7E89F5EAFC5E8D90B93E /* Pods-ZLGCalendar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAF5C1E524FE6B70008408EA = {
+			isa = PBXGroup;
+			children = (
+				AAF5C1F024FE6B70008408EA /* ZLGCalendar */,
+				AAF5C1EF24FE6B70008408EA /* Products */,
+				5280E7CDFD19121C0FBE6FB4 /* Pods */,
+				E5F7D7EB8A3D9FD3A1DAD4C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF5C1EF24FE6B70008408EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5C1EE24FE6B70008408EA /* ZLGCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF5C1F024FE6B70008408EA /* ZLGCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5C20524FE6BC8008408EA /* ZLGCalendar */,
+				AAF5C1F124FE6B70008408EA /* AppDelegate.swift */,
+				AAF5C1F524FE6B70008408EA /* ViewController.swift */,
+				AAF5C1F724FE6B70008408EA /* Main.storyboard */,
+				AAF5C1FA24FE6B72008408EA /* Assets.xcassets */,
+				AAF5C1FC24FE6B72008408EA /* LaunchScreen.storyboard */,
+				AAF5C1FF24FE6B72008408EA /* Info.plist */,
+			);
+			path = ZLGCalendar;
+			sourceTree = "<group>";
+		};
+		AAF5C20524FE6BC8008408EA /* ZLGCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5C21424FE7475008408EA /* 图片 */,
+				AAF5C20624FE6BC8008408EA /* ZLGDateTool.swift */,
+				AAF5C20724FE6BC8008408EA /* ZLGCalendarViewFlowLayout.swift */,
+				AAF5C20824FE6BC8008408EA /* ZLGcalendarCollectionCell.xib */,
+				AAF5C20924FE6BC8008408EA /* ZLGcalendarCollectionCell.swift */,
+				AAF5C20A24FE6BC8008408EA /* ZLGCalendarView.swift */,
+				AAF5C20B24FE6BC8008408EA /* ZLGCalendarItemView.swift */,
+				AAF5C20C24FE6BC8008408EA /* ZLGCalendarDatasoruceManager.swift */,
+			);
+			path = ZLGCalendar;
+			sourceTree = "<group>";
+		};
+		AAF5C21424FE7475008408EA /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5C21524FE7475008408EA /* 下拉@2x.png */,
+				AAF5C21624FE7475008408EA /* 下拉@3x.png */,
+				AAF5C21724FE7475008408EA /* right红@2x.png */,
+				AAF5C21824FE7475008408EA /* left红@2x.png */,
+				AAF5C21924FE7475008408EA /* left红@3x.png */,
+				AAF5C21A24FE7475008408EA /* right红@3x.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		E5F7D7EB8A3D9FD3A1DAD4C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				449E094BED3065E182390E35 /* Pods_ZLGCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF5C1ED24FE6B70008408EA /* ZLGCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF5C20224FE6B72008408EA /* Build configuration list for PBXNativeTarget "ZLGCalendar" */;
+			buildPhases = (
+				CAB3FCC6DE63F99293E3841F /* [CP] Check Pods Manifest.lock */,
+				AAF5C1EA24FE6B70008408EA /* Sources */,
+				AAF5C1EB24FE6B70008408EA /* Frameworks */,
+				AAF5C1EC24FE6B70008408EA /* Resources */,
+				87C12D3D934BB9FEF6DF7EA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLGCalendar;
+			productName = ZLGCalendar;
+			productReference = AAF5C1EE24FE6B70008408EA /* ZLGCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF5C1E624FE6B70008408EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = xuyadong;
+				TargetAttributes = {
+					AAF5C1ED24FE6B70008408EA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AAF5C1E924FE6B70008408EA /* Build configuration list for PBXProject "ZLGCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF5C1E524FE6B70008408EA;
+			productRefGroup = AAF5C1EF24FE6B70008408EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF5C1ED24FE6B70008408EA /* ZLGCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF5C1EC24FE6B70008408EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF5C1FE24FE6B72008408EA /* LaunchScreen.storyboard in Resources */,
+				AAF5C20F24FE6BC8008408EA /* ZLGcalendarCollectionCell.xib in Resources */,
+				AAF5C21D24FE7475008408EA /* right红@2x.png in Resources */,
+				AAF5C1FB24FE6B72008408EA /* Assets.xcassets in Resources */,
+				AAF5C21C24FE7475008408EA /* 下拉@3x.png in Resources */,
+				AAF5C22024FE7475008408EA /* right红@3x.png in Resources */,
+				AAF5C21B24FE7475008408EA /* 下拉@2x.png in Resources */,
+				AAF5C21E24FE7475008408EA /* left红@2x.png in Resources */,
+				AAF5C21F24FE7475008408EA /* left红@3x.png in Resources */,
+				AAF5C1F924FE6B70008408EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87C12D3D934BB9FEF6DF7EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLGCalendar/Pods-ZLGCalendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLGCalendar/Pods-ZLGCalendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLGCalendar/Pods-ZLGCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB3FCC6DE63F99293E3841F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLGCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF5C1EA24FE6B70008408EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF5C1F624FE6B70008408EA /* ViewController.swift in Sources */,
+				AAF5C20D24FE6BC8008408EA /* ZLGDateTool.swift in Sources */,
+				AAF5C21324FE6BC8008408EA /* ZLGCalendarDatasoruceManager.swift in Sources */,
+				AAF5C20E24FE6BC8008408EA /* ZLGCalendarViewFlowLayout.swift in Sources */,
+				AAF5C1F224FE6B70008408EA /* AppDelegate.swift in Sources */,
+				AAF5C21224FE6BC8008408EA /* ZLGCalendarItemView.swift in Sources */,
+				AAF5C21124FE6BC8008408EA /* ZLGCalendarView.swift in Sources */,
+				AAF5C21024FE6BC8008408EA /* ZLGcalendarCollectionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAF5C1F724FE6B70008408EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF5C1F824FE6B70008408EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF5C1FC24FE6B72008408EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF5C1FD24FE6B72008408EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF5C20024FE6B72008408EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAF5C20124FE6B72008408EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF5C20324FE6B72008408EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A32B2080FD77F7DFE8CDF71 /* Pods-ZLGCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHARJURN97;
+				INFOPLIST_FILE = ZLGCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyadong.ZLGCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAF5C20424FE6B72008408EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7A7E89F5EAFC5E8D90B93E /* Pods-ZLGCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHARJURN97;
+				INFOPLIST_FILE = ZLGCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyadong.ZLGCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF5C1E924FE6B70008408EA /* Build configuration list for PBXProject "ZLGCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF5C20024FE6B72008408EA /* Debug */,
+				AAF5C20124FE6B72008408EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF5C20224FE6B72008408EA /* Build configuration list for PBXNativeTarget "ZLGCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF5C20324FE6B72008408EA /* Debug */,
+				AAF5C20424FE6B72008408EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF5C1E624FE6B70008408EA /* Project object */;
+}

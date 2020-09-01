@@ -1,0 +1,6 @@
+framework module Pods_ZLGCalendar {
+  umbrella header "Pods-ZLGCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
