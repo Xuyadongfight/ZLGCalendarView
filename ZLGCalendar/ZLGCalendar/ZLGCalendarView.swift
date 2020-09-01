@@ -12,8 +12,8 @@ private let headHeight:CGFloat = 90
 private let bottomHeight : CGFloat = 30
 private let Width_Screen = UIScreen.main.bounds.size.width
 
-private let UIColor_333333    =    UIColor.init(named: "333333")
-private let UIColor_A0A0A0    =    UIColor.init(named: "A0A0A0")
+private let UIColor_333333    =    UIColor.init(red: 51/255.0, green: 51/255.0, blue: 51/255.0, alpha: 1)
+private let UIColor_A0A0A0    =    UIColor.init(red: 160/255.0, green: 160/255.0, blue: 160/255.0, alpha: 1)
 
 private let Font_system18:UIFont! = UIFont.init(name: "PingFangSC-Regular", size: 18)
 private let Font_system12:UIFont! = UIFont.init(name: "PingFangSC-Regular", size: 12)

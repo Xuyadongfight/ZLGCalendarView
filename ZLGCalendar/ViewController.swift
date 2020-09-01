@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         let temp = ZLGCalendarView()
         temp.backgroundColor = .white
         temp.frame = CGRect.init(x: 0, y:100, width: 414, height: 400)
+        //使用真机测试 模拟器这里计算有问题
         temp.startDate = ZLGDateTool().getLastYearFromDate(ZLGDateTool().getCurrentDate())
         temp.endDate = ZLGDateTool().getCurrentDate()
         temp.selectedDate = ZLGDateTool().getCurrentDate()
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
 
         }
         temp.updateDay = {(date)->Void in
-            
+            print("date = \(date)")
         }
         return temp
     }()

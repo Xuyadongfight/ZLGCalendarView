@@ -33,6 +33,10 @@ class ZLGDateTool: NSObject {
     
     /// 时区 默认已设置为北京时间 Asia/Shanghai
     var timeZone:TimeZone? = TimeZone.init(identifier: "Asia/Shanghai")
+//    var timeZone:TimeZone{
+//        guard let temp = TimeZone.init(identifier: "Asia/Shanghai") else { return TimeZone.current }
+//        return temp
+//    }
     lazy var formatter : DateFormatter = {
         let temp = DateFormatter.init()
         temp.timeZone = self.timeZone
